@@ -81,9 +81,9 @@ const services = [{
 ];
 
 const dataportfolio = [{
-    img: "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
+    img: "../Booki.png",
     description: "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS",
-    link: "https://github.com/Elsuen0/Booki-HTML-CSS.git",
+    link: "https://elsuen0.github.io/Booki-HTML-CSS/",
 },
 {
     img: "https://picsum.photos/400/800/?grayscale",
@@ -96,9 +96,9 @@ const dataportfolio = [{
     link: "#",
 },
 {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
+    img: "../SophieBluel.png",
+    description: "Création d'une page web dynamique avec JavaScript",
+    link: "https://github.com/Elsuen0/Portfolio-architecte-sophie-bluel",
 },
 {
     img: "https://picsum.photos/400/300/?grayscale",
@@ -144,20 +144,20 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: " lucascapartpro@gmail.com",
+    YOUR_FONE: " 06 73 62 25 41",
+    description: "Besoin d'aide pour votre projet ? Contactez-moi dès maintenant et laissez-moi transformer votre vision en réalité !",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_ckx38xa",
+    YOUR_TEMPLATE_ID: "template_0xby2rt",
+    YOUR_USER_ID: "IM4xa4sOpwAgfKgA5",
 };
 
 const socialprofils = {
-    github: "https://github.com",
+    github: "https://github.com/Elsuen0?tab=repositories",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/lucas-capart-b6aaab195/",
     twitter: "https://twitter.com",
 };
 export {
