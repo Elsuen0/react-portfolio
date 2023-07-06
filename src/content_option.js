@@ -1,138 +1,146 @@
-const logotext = "JOHN";
+const logotext = "LUCAS";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Lucas Capart | Portfolio",
+    description: "Je suis Lucas, développeur web, prêt à transformer vos idées en sites web remarquables",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Je m'appelle Lucas",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Passionné du développement web",
+        second: "Créateur de sites web innovants",
+        third: "Un atout pour vos projets web",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Lucas,développeur web, prêt à transformer vos idées en sites web remarquables.",
+    your_img_url: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2669&q=80",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "À propos de moi",
+    aboutme: "Fort d'une passion inébranlable pour le développement web depuis de nombreuses années, j'ai choisi d'en faire ma vocation. Doté d'une capacité d'apprentissage rapide et d'une compréhension intuitive, je m'efforce constamment de réaliser des exploits afin de maintenir un niveau d'efficacité optimal.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
+    jobtitle: "Développeur web | Frontend",
+    where: "Formation Openclassrooms",
+    date: "2023",
+},
+{
+    jobtitle: "Graphiste",
+    where: "Auto Entrepeunariat",
+    date: "2019 - 2023",
+},
+    /*{
         jobtitle: "Designer of week",
         where: "ALquds",
         date: "2019",
-    },
+    },*/
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
-        value: 80,
-    },
-    {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
-    },
+    name: "HTML & CSS",
+    value: 95,
+},
+{
+    name: "NodeJS",
+    value: 40,
+},
+{
+    name: "Javascript",
+    value: 80,
+},
+{
+    name: "React",
+    value: 60,
+},
+{
+    name: "Photoshop",
+    value: 100,
+},
+{
+    name: "Git / Github",
+    value: 80,
+},
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+    title: "Développement web",
+    description: "Je peux créer des sites web attrayants, fonctionnels et adaptés à vos besoins spécifiques. Ensemble, nous pouvons transformer vos idées en réalité en utilisant les dernières technologies web et les meilleures pratiques de développement.",
+},
+{
+    title: "Debug & Optimisation",
+    description: "Je peux identifier et résoudre rapidement les problèmes techniques, améliorer les performances et optimiser l'expérience utilisateur de votre site. Grâce à mon expertise en matière de débogage et d'optimisation, je peux garantir un fonctionnement fluide et efficace de votre site web",
+},
+{
+    title: "Intégration de maquettes graphiques",
+    description: "Je peux transformer vos conceptions visuelles en code front-end fonctionnel, en veillant à ce que chaque détail soit fidèlement reproduit. Grâce à mon expertise en intégration, je peux créer des interfaces web esthétiques et interactives qui offrent une expérience utilisateur exceptionnelle.",
+},
+{
+    title: "Et bien d'autres...",
+    description: "Contactez-moi pour discuter de votre projet !"
+}
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+    img: "https://user.oc-static.com/upload/2022/06/20/16557256333819_FR_1155_P3_Banner-Booki.png",
+    description: "Création d'une page d'accueil d'une agence de voyage avec HTML & CSS",
+    link: "https://github.com/Elsuen0/Booki-HTML-CSS.git",
+},
+{
+    img: "https://picsum.photos/400/800/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/600/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/300/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/700/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+{
+    img: "https://picsum.photos/400/600/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/300/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/550/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+{
+    img: "https://picsum.photos/400/700/?grayscale",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
 ];
 
 const contactConfig = {
